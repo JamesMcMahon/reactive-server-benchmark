@@ -1,0 +1,9 @@
+spring:
+  flyway:
+    url: jdbc:postgresql://localhost:5432/benchmark
+    user: root
+    password: root
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/benchmark
+    username: root
+    password: root
