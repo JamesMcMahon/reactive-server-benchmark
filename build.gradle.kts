@@ -26,6 +26,7 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
 	implementation("org.flywaydb:flyway-core")
+//	implementation("com.expediagroup:graphql-kotlin-spring-server:2.0.0")
 	runtimeOnly("io.r2dbc:r2dbc-postgresql")
 	runtimeOnly("org.postgresql:postgresql")
 	testImplementation("org.springframework.boot:spring-boot-starter-test") {

@@ -2,10 +2,9 @@ package net.jamesmcmahon.reactiveserverbenchmark.model
 
 import org.springframework.data.relational.core.mapping.Table
 
-@Table("books")
-data class Book(
+@Table("authors")
+data class Author(
         val id: Long,
-        val name: String,
-        val pageCount: Int,
-        val author: Author
+        val firstName: String,
+        val lastName: String
 )
