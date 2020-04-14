@@ -7,3 +7,9 @@ spring:
     url: r2dbc:postgresql://localhost:5432/benchmark
     username: root
     password: root
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          r2dbc: DEBUG
